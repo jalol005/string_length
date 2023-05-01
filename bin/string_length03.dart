@@ -7,6 +7,13 @@
     Returns:
         True or False
 */
+bool func(String n,String m){
+  if(n.length == m.length){
+    return true;
+  }
+  return false;
+}
 void main() {
+  print(func('JALO','JALOL'));
   // write your code here
 }
