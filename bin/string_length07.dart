@@ -7,6 +7,13 @@
     Returns:
         string
 */
+String func(String s1,String s2){
+    if (s1.length % 2 == 1 && s2.length % == 1){
+        return s2;
+    }
+    return s1;
+}
 void main() {
+    print(func('fhdj','kkkk'));
   // write your code here
 }
